@@ -32,7 +32,7 @@ const LandingPage = () => {
           <Text color={"gray.500"}>
             Find NEU Students CO-OP experience.
             What do you learn, how much you earn, do they absorb??
-            all the infor you need. 
+            all the info you need. 
           </Text>
           <Stack direction={"row"} spacing={6} justify={"center"}>
             <Button
