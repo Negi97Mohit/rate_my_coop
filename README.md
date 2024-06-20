@@ -1,14 +1,27 @@
-# Rate My Dorm
+# Rate My Coop
 
-Rate My Dorm is a web application designed to simplify and enhance the dormitory selection process for students. This user-friendly platform allows students to upload and share photos of their dorm rooms, providing a real and unfiltered glimpse into various on-campus housing options. Other users can then browse these images and rate them, fostering a community-driven resource that helps new and prospective students find dorms that best suit their preferences and needs.
+Rate My Coop is a web application designed for Northeastern University students to share and rate their co-op experiences. This platform enables students to provide honest feedback and ratings on their co-op placements, helping others make informed decisions about their future co-op opportunities.
+
+## Features
+
+- **User Reviews:** Students can write reviews detailing their co-op experiences, including company culture, work environment, and overall satisfaction.
+  
+- **Rating System:** Users can rate co-op placements based on different criteria such as learning experience, mentorship, and career growth.
+
+- **Search and Filter:** Search functionality allows users to find specific co-op reviews by company, job title, or keyword. Filters help users narrow down results based on location, industry, and more.
+
+- **Community Insights:** Through shared experiences, students gain valuable insights into different industries and companies, aiding in career planning and decision-making.
+
+## Tech Stack
+
+- **Frontend:** Next.js, React, Chakra UI
+- **Backend:** Firebase (Firestore for database, Firebase Authentication)
+- **Deployment:** Vercel (for hosting Next.js applications)
+
 
 ### Authors
 
 Rich Park, Myles Shin, Nikhil Polepalli, Hyun Lee
-
-### Tech Stack
-
-Next/React, Firebase, Node, Chakra
 
 ## Getting Started
 First, clone over the repository to your local:
