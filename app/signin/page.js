@@ -11,7 +11,7 @@ import {
 } from "../../firebaseConfig";
 import { setDoc, doc } from "firebase/firestore";
 import { useRouter } from "next/navigation";
-
+ 
 const SignInPage = () => {
   const router = useRouter();
   const toast = useToast();
@@ -38,14 +38,13 @@ const SignInPage = () => {
         console.error("You must use a Vanderbilt email to log in.");
         auth.signOut();
       }
+      router.push("/homePage");
 
       await setDoc(doc(db, "users", user.uid), {
         name: user.displayName,
         photo: user.photoURL,
         email: user.email,
       });
-
-      router.push("/homePage");
     } catch (error) {
       toast({
         title: "An error occurred.",
