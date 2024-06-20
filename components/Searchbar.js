@@ -13,7 +13,7 @@ function SearchBar({
         <InputGroup>
           <Input
             type="text"
-            placeholder="Search for dorms"
+            placeholder="Search for CO-OPs"
             value={searchQuery}
             onChange={(e) => onSearch(e.target.value)}
             w="600px"
